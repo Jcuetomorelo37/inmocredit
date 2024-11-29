@@ -1,0 +1,136 @@
+.navbar-link,
+a.navbar-item:hover,
+a.navbar-item:focus {
+  background-color: transparent;
+  border-bottom: 5px solid rgb(42, 134, 146);
+  transition: all 400ms ease-out;
+  margin-bottom: 5px;
+}
+
+#InmoCredit {
+  background-color: transparent;
+  border-bottom: none !important;
+  transition: none !important;
+  margin-bottom: 5px !important;
+  cursor: wait;
+}
+
+#btn_prim {
+  margin-bottom: 15px;
+}
+
+section.section.about-section {
+  background-color: #14161A;
+  padding: 3rem;
+}
+
+p.input_footer {
+  background-color: #202523;
+  color: #f5f5f5;
+  text-decoration: chocolate;
+  border-radius: 5px;
+  height: 35px;
+  padding-top: 5px;
+  box-shadow: 7px 6px 4px rgb(99 88 88);
+}
+
+.image.is-500x500 {
+  height: 500px;
+  width: 500px;
+}
+
+#img_logo_inicio {
+  border-radius: 30px;
+  box-shadow: 5px 4px 20px 3px rgb(99 88 88);
+}
+
+#pIntro {
+  color: #202523d0;
+}
+
+.hero {
+  background-color: #e5f4f4;
+}
+
+.hero-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-box {
+  max-width: 500px;
+}
+
+.image-box {
+  position: relative;
+}
+
+.speech-bubble {
+  position: absolute;
+  top: 10px;
+  right: -45px;
+  background-color: #ffab00;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin-top: 35%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card-image img {
+  border-radius: 10px;
+}
+
+.footer-section {
+  background-color: #e5f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-section h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-input {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+
+.is-light {
+  font-weight: 10;
+  font-size: 0.5em;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#nomformatstrong{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: -30px;
+}
+
+a.button.is-light {
+  height: 40px;
+  width: 105px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+a.button.is-light:hover {
+  background-color: #838181b3;
+}

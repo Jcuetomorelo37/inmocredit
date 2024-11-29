@@ -1,0 +1,132 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --grayp: #bdbcbcb2;
+}
+
+/* body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: var(--grayp);
+        font-family: Arial, sans-serif;
+    } */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--grayp);
+}
+
+.login-box {
+  width: 800px;
+  background: linear-gradient(60deg, var(--grayp) 0%, #111 100%);
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-box .left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.login-box .right {
+  flex: 1;
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-box .field input {
+  background-color: #fff;
+  border: none;
+  color: #333;
+}
+
+.field {
+  margin-bottom: 50%;
+}
+
+.login-box .button {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.login-box .right h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.register-link {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.register-link a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.register-link:hover a {
+  color: #00ffcc;
+  text-decoration: underline;
+  text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+#userYpass,
+#contraseña,
+#usuario {
+  background-color: rgb(206, 206, 206);
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+}
+
+#userYpass::placeholder,
+#contraseña::placeholder,
+#usuario::placeholder {
+  background-color: rgb(206, 206, 206);
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+}
+
+/* chrome */
+#userYpass::-webkit-input-placeholder,
+#contraseña::-webkit-input-placeholder,
+#usuario::-webkit-input-placeholder {
+  background-color: rgb(206, 206, 206);
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+}
+
+/* mozilla */
+#userYpass::-moz-placeholder,
+#contraseña::-moz-placeholder,
+#usuario::-moz-placeholder {
+  background-color: rgb(206, 206, 206);
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+}
+
+/* edge */
+#userYpass::-ms-input-placeholder,
+#contraseña::-ms-input-placeholder,
+#usuario::-ms-input-placeholder {
+  background-color: rgb(206, 206, 206);
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+}
+
+#loginbt {
+  background-color: rgb(41, 40, 40);
+}
