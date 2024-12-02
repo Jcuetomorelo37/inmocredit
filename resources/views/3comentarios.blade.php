@@ -229,7 +229,7 @@
           <article class="media">
             <figure class="media-left">
               <p class="image is-64x64">
-                <img src="imgs/MdiCommentAccountOutline.png">
+                <img src="imgs/descargar.png">
               </p>
             </figure>
             <div class="media-content">

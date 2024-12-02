@@ -11,7 +11,6 @@ class HistorialPagoController extends Controller
     {
         $historial = HistorialPago::with('inquilino', 'propiedad')->get();  // Carga la relación 'inquilino' (Usuario)
         
-        // Transformar los resultados para incluir el nombre del inquilino en lugar del id
         $historialConNombres = $historial->map(function($item) {
             return [
                 'id' => $item->id,

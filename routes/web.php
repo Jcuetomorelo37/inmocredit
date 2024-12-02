@@ -21,15 +21,7 @@ Route::middleware([
     })->name('dashboard');
 
     Route::resource('roles', RolController::class);
-    // Route::resource('propiedades', PropiedadController::class)->only([
-    //     'index', 'show', 'store', 'update', 'destroy'
-    // ]);
 });
-
-// Route::get('/propiedades', [PropiedadController::class, 'index']);
-// Route::post('/propiedades', [PropiedadController::class, 'store'])->name('propiedades.store');
-// Route::put('/propiedades/{id}', [PropiedadController::class, 'update'])->name('propiedades.update');
-// Route::delete('/propiedades/{id}', [PropiedadController::class, 'destroy'])->name('propiedades.destroy');
 
 Route::apiResource('comentarios', ComentarioController::class);
 Route::apiResource('usuarios', UsuarioController::class);

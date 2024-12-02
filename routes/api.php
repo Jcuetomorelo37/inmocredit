@@ -10,19 +10,6 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-
-// Route::get('/propiedades', [PropiedadController::class, 'index']);
-// Route::get('/propiedades/{id}', [PropiedadController::class, 'show']);
-// Route::post('/propiedades', [PropiedadController::class, 'store']);
-// Route::put('/propiedades/{id}', [PropiedadController::class, 'update']);
-// Route::delete('/propiedades/{id}', [PropiedadController::class, 'destroy']);
-
-// Route::get('/api/propiedades', [PropiedadController::class, 'index']);
-// Route::get('/propiedades/{id}', [PropiedadController::class, 'show']);
-// Route::post('/propiedades', [PropiedadController::class, 'store']);
-// Route::put('/propiedades/{id}', [PropiedadController::class, 'update']);
-// Route::delete('/propiedades/{id}', [PropiedadController::class, 'destroy']);
-
 Route::get('/api/propiedades', [PropiedadController::class, 'index']);
 Route::get('/api/propiedades/{id}', [PropiedadController::class, 'show'])->name('api.propiedades.show');
 Route::post('/api/propiedades', [PropiedadController::class, 'store'])->name('api.propiedades.store');
